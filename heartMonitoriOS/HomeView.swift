@@ -25,14 +25,26 @@ struct HomeView: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
-            Text("Bem vindo")
+            Text("Sua saúde")
+                .font(.largeTitle)
+                .padding(.leading, 30)
+                .padding(.top, 10)
+                .bold()
+            heartRateView
+                .padding(.leading, 20)
+                .padding(.trailing, 20)
+            sp02View
+                .padding(.leading, 20)
+                .padding(.trailing, 20)
+            Text("Você sabia?")
                 .font(.largeTitle)
                 .padding(.leading, 30)
                 .padding(.top, 30)
                 .bold()
-            heartRateView
-            sp02View
-            Spacer()
+            CuriositiesView()
+                .padding(.leading, 20)
+                .padding(.trailing, 20)
+//            Spacer()
         }
     }
 }

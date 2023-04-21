@@ -36,7 +36,5 @@ struct CardView: View {
         .background(Color.white)
         .cornerRadius(16)
         .shadow(radius: 5)
-        .padding(.leading)
-        .padding(.trailing)
     }
 }

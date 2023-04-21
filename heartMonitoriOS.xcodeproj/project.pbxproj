@@ -16,6 +16,7 @@
 		857304E229F311DE008D6AC1 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857304E129F311DE008D6AC1 /* HomeViewModel.swift */; };
 		857304E429F314A4008D6AC1 /* Monitoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857304E329F314A4008D6AC1 /* Monitoring.swift */; };
 		857304E629F34826008D6AC1 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857304E529F34826008D6AC1 /* CardView.swift */; };
+		857304E829F35654008D6AC1 /* CuriositiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857304E729F35654008D6AC1 /* CuriositiesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		857304E129F311DE008D6AC1 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		857304E329F314A4008D6AC1 /* Monitoring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monitoring.swift; sourceTree = "<group>"; };
 		857304E529F34826008D6AC1 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		857304E729F35654008D6AC1 /* CuriositiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuriositiesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				857304E129F311DE008D6AC1 /* HomeViewModel.swift */,
 				857304E329F314A4008D6AC1 /* Monitoring.swift */,
 				857304E529F34826008D6AC1 /* CardView.swift */,
+				857304E729F35654008D6AC1 /* CuriositiesView.swift */,
 			);
 			path = heartMonitoriOS;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				857304E429F314A4008D6AC1 /* Monitoring.swift in Sources */,
 				857304E229F311DE008D6AC1 /* HomeViewModel.swift in Sources */,
 				85134C8629EEC08000C85262 /* heartMonitoriOSApp.swift in Sources */,
+				857304E829F35654008D6AC1 /* CuriositiesView.swift in Sources */,
 				857304E629F34826008D6AC1 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
