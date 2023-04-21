@@ -24,9 +24,15 @@ struct HomeView: View {
     
     
     var body: some View {
-        VStack(spacing: 20) {
+        VStack(alignment: .leading, spacing: 20) {
+            Text("Bem vindo")
+                .font(.largeTitle)
+                .padding(.leading, 30)
+                .padding(.top, 30)
+                .bold()
             heartRateView
             sp02View
+            Spacer()
         }
     }
 }
