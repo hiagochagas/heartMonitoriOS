@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		85134C8629EEC08000C85262 /* heartMonitoriOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85134C8529EEC08000C85262 /* heartMonitoriOSApp.swift */; };
-		85134C8829EEC08000C85262 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85134C8729EEC08000C85262 /* ContentView.swift */; };
+		85134C8829EEC08000C85262 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85134C8729EEC08000C85262 /* HomeView.swift */; };
 		85134C8A29EEC08100C85262 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85134C8929EEC08100C85262 /* Assets.xcassets */; };
 		85134C8D29EEC08100C85262 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85134C8C29EEC08100C85262 /* Preview Assets.xcassets */; };
 		85134C9429EEC35000C85262 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85134C9329EEC35000C85262 /* GoogleService-Info.plist */; };
@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		85134C8229EEC08000C85262 /* heartMonitoriOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = heartMonitoriOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85134C8529EEC08000C85262 /* heartMonitoriOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heartMonitoriOSApp.swift; sourceTree = "<group>"; };
-		85134C8729EEC08000C85262 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		85134C8729EEC08000C85262 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		85134C8929EEC08100C85262 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85134C8C29EEC08100C85262 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		85134C9329EEC35000C85262 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				85134C8529EEC08000C85262 /* heartMonitoriOSApp.swift */,
-				85134C8729EEC08000C85262 /* ContentView.swift */,
+				85134C8729EEC08000C85262 /* HomeView.swift */,
 				85134C8929EEC08100C85262 /* Assets.xcassets */,
 				85134C9329EEC35000C85262 /* GoogleService-Info.plist */,
 				85134C8B29EEC08100C85262 /* Preview Content */,
@@ -155,7 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85134C8829EEC08000C85262 /* ContentView.swift in Sources */,
+				85134C8829EEC08000C85262 /* HomeView.swift in Sources */,
 				857304E429F314A4008D6AC1 /* Monitoring.swift in Sources */,
 				857304E229F311DE008D6AC1 /* HomeViewModel.swift in Sources */,
 				85134C8629EEC08000C85262 /* heartMonitoriOSApp.swift in Sources */,

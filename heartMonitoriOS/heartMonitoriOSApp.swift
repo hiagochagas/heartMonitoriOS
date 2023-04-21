@@ -24,7 +24,7 @@ struct heartMonitoriOSApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
