@@ -14,16 +14,16 @@ struct CardView: View {
     
     var body: some View {
         ZStack {
-            VStack(alignment: .leading, spacing: 16) {
+            VStack(alignment: .leading, spacing: 12) {
                 Text(title)
-                    .bold()
-                    .font(.title)
+                    .fontWeight(.medium)
+                    .font(.title2)
                 HStack(spacing: 10) {
                     Image(imageName)
                         .resizable()
-                        .frame(width: 30, height: 30)
+                        .frame(width: 25, height: 25)
                     Text(description)
-                        .font(.title2)
+                        .font(.title3)
                 }
             }
             .frame(maxWidth: .infinity, alignment: .leading)

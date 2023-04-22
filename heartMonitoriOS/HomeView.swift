@@ -24,27 +24,28 @@ struct HomeView: View {
     
     
     var body: some View {
-        VStack(alignment: .leading, spacing: 20) {
-            Text("Sua saúde")
-                .font(.largeTitle)
-                .padding(.leading, 30)
-                .padding(.top, 10)
-                .bold()
-            heartRateView
-                .padding(.leading, 20)
-                .padding(.trailing, 20)
-            sp02View
-                .padding(.leading, 20)
-                .padding(.trailing, 20)
-            Text("Você sabia?")
-                .font(.largeTitle)
-                .padding(.leading, 30)
-                .padding(.top, 30)
-                .bold()
-            CuriositiesView()
-                .padding(.leading, 20)
-                .padding(.trailing, 20)
-//            Spacer()
+        ScrollView {
+            VStack(alignment: .leading, spacing: 20) {
+                Text("Sua saúde")
+                    .font(.largeTitle)
+                    .padding(.leading, 30)
+                    .padding(.top, 10)
+                    .bold()
+                heartRateView
+                    .padding(.leading, 20)
+                    .padding(.trailing, 20)
+                sp02View
+                    .padding(.leading, 20)
+                    .padding(.trailing, 20)
+                Text("Você sabia?")
+                    .font(.largeTitle)
+                    .padding(.leading, 30)
+                    .padding(.top, 30)
+                    .bold()
+                CuriositiesView()
+                    .padding(.leading, 20)
+                    .padding(.trailing, 20)
+            }
         }
     }
 }
